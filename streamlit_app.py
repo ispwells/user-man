@@ -58,7 +58,6 @@ def menu():
     register()
   elif slection == 'l' or slection == 'L':
     login()
-  
   else:
     menu()
 menu()
