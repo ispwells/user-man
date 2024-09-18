@@ -1,10 +1,10 @@
 import streamlit as st
 import datetime
 
-st.write("my first python app")
-st.write("hello")
-name = st.text_input("please enter your name")
-st.write("welcome",name)
+#st.write("my first python app")
+#st.write("hello")
+#name = st.text_input("please enter your name")
+#st.write("welcome",name)
 def register():
   surname = st.text_input("please enter your surname")
   forename = st.text_input("please enter your forename")
