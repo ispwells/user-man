@@ -39,16 +39,16 @@ def login():
       if admin == 'N':
         st.write('welcome '+firstname+' ' +surname)
         st.write('your birthdate is '+ date)
-        choice = st.number_input("please chose 1 to draw shapes or 2 to play guessing game")
-        if choice == 1:
-          import shapes as s
-        else:
-          import game as g
+        #choice = st.number_input("please chose 1 to draw shapes or 2 to play guessing game")
+        #if choice == 1:
+          #import shapes as s
+        #else:
+          #import game as g
       #elif active == "I":
         #print("your account is not active")
       else:
         print("welcome admin")
-        adminf()
+        #adminf()
       file=open("loginrecord.txt","a")
       file.write("\n"+userenter+","+str(datetime.datetime.now()))
       file.close()
