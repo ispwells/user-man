@@ -1,6 +1,5 @@
 import streamlit as st
 
-st.title("🎈 My new app")
 st.write("my first python app")
 st.write("hello")
 name = st.text_input("please enter your name")
@@ -47,7 +46,7 @@ def login():
       #elif active == "I":
         #print("your account is not active")
       else:
-        print("welcome admin")
+        st.write("welcome admin")
         #adminf()
       file=open("loginrecord.txt","a")
       file.write("\n"+userenter+","+str(datetime.datetime.now()))
